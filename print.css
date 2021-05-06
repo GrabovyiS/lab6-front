@@ -1,0 +1,80 @@
+@page{
+    size: A4;
+    margin: 1cm;
+}
+*{
+    color: #000 !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+a{
+    text-decoration: underline;
+}
+.mobile-nav{
+    display: none;
+}
+.section-1-5{
+    display: none;
+}
+.section-1__img-container{
+    display: none;
+}   
+button{
+    display: block;
+    width: 2.5cm;
+    height: 1.25cm;
+    outline: none;
+    border: 2mm solid black;
+    margin-right: 4mm;
+    margin-top: 4mm;
+    margin-bottom: 4mm;
+    font-weight: bolder;
+}
+.section-1__subtitle{
+    font-weight: normal;
+}
+.section-4__blue-rect, .section-4__rects, .section-2__rectangles{
+    display: none;
+}
+.section-2__strings, .section-3__strings{
+    display: none;
+}
+.section-3__card-img{
+    font-size: large;
+    width: 10%;
+    text-align: center;
+    border: 1mm solid rgb(70, 70, 70);
+    font-weight: bold;
+}
+.section-3__card, .section-5__card{
+    border: 2mm solid rgb(153, 153, 153);
+    margin-bottom: 1mm;
+    margin-top: 1mm;
+    padding: 4mm;
+    page-break-inside: avoid;
+}
+img{
+    page-break-inside: avoid;
+}
+input{
+    margin-right: 4mm;
+    margin-top: 4mm;
+    margin-bottom: 4mm;
+    width: 5cm;
+    border-radius: 0.2cm;
+    outline: none;
+    border: 1mm solid grey;
+}
+.section-5__arrows{
+    display: none;
+}
+.section-1__card-text, .section-1__link {
+    font-size: 6mm;
+}
+.section-1__phone-number, .section-1__logo-content, .section-3__card-text, .section-5__card-text{
+    font-size: 5.5mm;
+}
+.section-1__call{
+    font-size: 5.5mm;
+}
